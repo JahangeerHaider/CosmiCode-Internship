@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4efff;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 150vh;
+}
+
+.form-contianer{
+    background-color: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #6c5ce7;
+}
+
+label{
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    outline: none;
+}
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 1.2rem;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    /* allows wrapping on small screens */
+    gap: 15px;
+    margin-bottom: 1.2rem;
+}
+
+.checkbox-group label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+}
+button {
+    width: 100%;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #6c5ce7;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #5947d1; }
