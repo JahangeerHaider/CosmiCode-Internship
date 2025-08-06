@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form with JS Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validate.js" defer></script>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form onsubmit="return validateForm()">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+
+            <label>Gender</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
+            </div>
+
+            <label>Skills</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="skills" value="CSS">CSS</label>
+                <label><input type="checkbox" name="skills" value="HTML">HTML</label>
+                <label><input type="checkbox" name="skills" value="JavaScript">JavaScript</label>
+                <label><input type="checkbox" name="skills" value="React">React</label>
+            </div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>
