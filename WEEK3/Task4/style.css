@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#text {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.changed {
+    color: white;
+    background-color: teal;
+    font-weight: bold;
+    border-color: teal;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
